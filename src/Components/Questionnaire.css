@@ -82,6 +82,7 @@ input[type="radio"] {
     position: absolute;
     top: 1px;
     left: 1px;
+    cursor: pointer;
 }
 
 input[type="number"], input[type="text"], input[type="tel"], input[type="email"], input[type="date"], input[type="time"] {

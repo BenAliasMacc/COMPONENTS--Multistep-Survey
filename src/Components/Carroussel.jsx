@@ -5,6 +5,8 @@ import { Question1, Question10, Question11, Question12, Question13, Question2, Q
 
 function Carroussel() {
 
+    const [error, setError] = useState(false)
+    const [valid, setValid] = useState(false)
     const [current, setCurrent] = useState(0)
 
     const questionnaire = [
@@ -22,9 +24,13 @@ function Carroussel() {
         <Question12/>,
         <Question13/>
     ]
+
     const length = questionnaire.length
 
+    
+
     return (
+        <div>
         <form>
             {questionnaire.map((question, index) => {
                 return (
@@ -36,6 +42,8 @@ function Carroussel() {
                 })
             }
         </form>
+
+        </div>
     )
 }
 

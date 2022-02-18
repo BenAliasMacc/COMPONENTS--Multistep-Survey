@@ -2,6 +2,7 @@ import React, { useEffect, useRef} from 'react'
 import './Footer.css'
 import flecheGauche from '../Assets/arrowLeft.svg'
 import flecheDroite from '../Assets/arrowRight.svg'
+import Compteur from './Compteur'
 
 export const Footer = ({ length, current, setCurrent }) => {
 
@@ -25,6 +26,9 @@ export const Footer = ({ length, current, setCurrent }) => {
             <img className='arrow arrow-left' src={flecheGauche} alt='fleche vers la gauche'/>
             <p>Precedent</p>
         </div>
+
+        <Compteur length={length} current={current}/>
+
         {
             current === length - 1 ? (
                 <button type='submit' className='submit-form'>
@@ -37,7 +41,6 @@ export const Footer = ({ length, current, setCurrent }) => {
                 </div>
             )
         }
-        
     </div>
   )
 }

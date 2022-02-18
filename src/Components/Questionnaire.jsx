@@ -12,7 +12,7 @@ export const Question1 = () => {
             <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/maison%20new.61ee97c06dee05.85677018.jpg" alt="Une maison" />
             <p>Une maison</p>
           </label>
-          <input id='maison' type='radio' name='logement' required/>
+          <input id='maison' type='radio' name='logement'/>
         </div>
 
         <div className='option'>
@@ -54,7 +54,7 @@ export const Question3 = () => {
             <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/icon%20.61ee98ab4f2903.12289323.jpg" alt="Chauffage au fioul" />
             <p>Chauffage au fioul</p>
           </label>
-          <input id='fioul' type='radio' name='chauffage' required/>
+          <input id='fioul' type='radio' name='chauffage'/>
         </div>
 
         <div className='option option--small-card'>
@@ -62,7 +62,7 @@ export const Question3 = () => {
             <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/icon.61ee98c05d3ab9.69489558.jpg" alt="Chauffage Electrique" />
             <p>Chauffage Electrique</p>
           </label>
-          <input id='electrique' type='radio' name='chauffage' required/>
+          <input id='electrique' type='radio' name='chauffage'/>
         </div>
 
         <div className='option option--small-card'>
@@ -70,7 +70,7 @@ export const Question3 = () => {
             <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/PHOTO-2022-01-24-12-50-07.61ee98d05692f6.80732509.jpg" alt="Chauffage au gaz" />
             <p>Chauffage au Gaz</p>
           </label>
-          <input id='gaz' type='radio' name='chauffage' required/>
+          <input id='gaz' type='radio' name='chauffage'/>
         </div>
 
         <div className='option option--small-card'>
@@ -78,7 +78,7 @@ export const Question3 = () => {
             <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/PHOTO-2022-01-24-12-50-07%202.61ee98e4e96377.16161700.jpg" alt="Chauffage au bois" />
             <p>Chauffage au Bois</p>
           </label>
-          <input id='bois' type='radio' name='chauffage' required/>
+          <input id='bois' type='radio' name='chauffage'/>
         </div>
 
         <div className='option option--small-card'>
@@ -86,7 +86,7 @@ export const Question3 = () => {
             <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/PHOTO-2022-01-24-12-50-07%204.61ee98f8cc03f5.01959819.jpg" alt="Chauffage au charbon" />
             <p>Chauffage au Charbon</p>
           </label>
-          <input id='charbon' type='radio' name='chauffage' required/>
+          <input id='charbon' type='radio' name='chauffage'/>
         </div>
       
         <div className='option option--small-card'>
@@ -94,7 +94,7 @@ export const Question3 = () => {
             <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/PHOTO-2022-01-24-12-50-07%203.61ee990bc0d2f5.71543942.jpg" alt="Pompe à chaleur" />
             <p>Pompe à Chaleur</p>
           </label>
-          <input id='chaleur' type='radio' name='chauffage' required/>
+          <input id='chaleur' type='radio' name='chauffage'/>
         </div>
       </div>
     </>
@@ -116,7 +116,7 @@ export const Question4 = () => {
             <p>Pompe à chaleur</p>
             <p>Air/Eau</p>
           </label>
-          <input id='air-eau' type='radio' name='travaux' required/>
+          <input id='air-eau' type='radio' name='travaux'/>
         </div>
 
         <div className='option option--small-card'>
@@ -125,16 +125,16 @@ export const Question4 = () => {
             <p>Pompe à chaleur</p>
             <p>Géothermique</p>
           </label>
-          <input id='géothermique' type='radio' name='travaux' required/>
+          <input id='géothermique' type='radio' name='travaux'/>
         </div>
 
         <div className='option option--small-card'>
           <label htmlFor='air-air'>
-            <img src="https://www.jotform.com/uploads/tomguerreau.ads/form_files/PHOTO-2022-01-24-12-50-07.61ee98d05692f6.80732509.jpg" alt="Pompe à chaleur Air" />
+            <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2012.52.03.61eeb72e32d759.78376580.png" alt="Pompe à chaleur Air" />
             <p>Pompe à chaleur</p>
             <p>Air/Air</p>
           </label>
-          <input id='air-air' type='radio' name='travaux' required/>
+          <input id='air-air' type='radio' name='travaux'/>
         </div>
 
         <div className='option option--small-card'>
@@ -143,7 +143,7 @@ export const Question4 = () => {
             <p>Pompe à chaleur</p>
             <p>Hybride</p>
           </label>
-          <input id='hybride' type='radio' name='travaux' required/>
+          <input id='hybride' type='radio' name='travaux'/>
         </div>
       </div>
     </>
@@ -174,7 +174,7 @@ export const Question6 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2012.52.40.61eeb7b71bbea9.17524732.png" alt="réflexion en cours" />
             <p>Je réfléchis à mes travaux</p>
           </label>
-          <input id='reflexion' type='radio' name='projet' required/>
+          <input id='reflexion' type='radio' name='projet'/>
         </div>
 
         <div className='option option--small-card'>
@@ -182,7 +182,7 @@ export const Question6 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2012.52.41.61eeb7ce7ce055.92401019.png" alt="recherche artisan" />
             <p>Je recherche un artisan RGE</p>
           </label>
-          <input id='artisan' type='radio' name='projet' required/>
+          <input id='artisan' type='radio' name='projet'/>
         </div>
 
         <div className='option option--small-card'>
@@ -190,7 +190,7 @@ export const Question6 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2012.52.43.61eeb7e1bb2ff2.88127133.png" alt="devis à signer" />
             <p>Je vais signer mon devis</p>
           </label>
-          <input id='devis-a-signer' type='radio' name='projet' required/>
+          <input id='devis-a-signer' type='radio' name='projet'/>
         </div>
 
         <div className='option option--small-card'>
@@ -198,7 +198,7 @@ export const Question6 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2012.52.43.61eeb7e1bb2ff2.88127133.png" alt="devis signé" />
             <p>J'ai déjà signé mon devis</p>
           </label>
-          <input id='devis-signe' type='radio' name='projet' required/>
+          <input id='devis-signe' type='radio' name='projet'/>
         </div>
       </div>
     </>
@@ -233,7 +233,7 @@ export const Question8 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.23.38.61eeb83ddeb765.03482046.png" alt="propriétaire occupant" />
             <p>Propriétaire occupant</p>
           </label>
-          <input id='proprietaire-occupant' type='radio' name='statut' required/>
+          <input id='proprietaire-occupant' type='radio' name='statut'/>
         </div>
 
         <div className='option option--small-card'>
@@ -241,7 +241,7 @@ export const Question8 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.23.40.61eeb8454f4977.86500467.png" alt="propriétaire d'une résidence secondaire" />
             <p>Propriétaire d'une résidence secondaire</p>
           </label>
-          <input id='proprietaire-residence-secondaire' type='radio' name='statut' required/>
+          <input id='proprietaire-residence-secondaire' type='radio' name='statut'/>
         </div>
 
         <div className='option option--small-card'>
@@ -249,7 +249,7 @@ export const Question8 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.23.42.61eeb84da4fd80.22554435.png" alt="propriétaire bailleur" />
             <p>Propriétaire bailleur</p>
           </label>
-          <input id='proprietaire-bailleur' type='radio' name='statut' required/>
+          <input id='proprietaire-bailleur' type='radio' name='statut'/>
         </div>
 
         <div className='option option--small-card'>
@@ -257,7 +257,7 @@ export const Question8 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.23.45.61eeb856cf7421.07700481.png" alt="locataire" />
             <p>Locataire</p>
           </label>
-          <input id='locataire' type='radio' name='statut' required/>
+          <input id='locataire' type='radio' name='statut'/>
         </div>
       </div>
     </>
@@ -278,7 +278,7 @@ export const Question9 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.24.01.61eeb86b317df8.05585385.png" alt="inférieur à 37 232 €" />
             <p>Inférieur à 37 232 €</p>
           </label>
-          <input id='tranche1' type='radio' name='revenu' required/>
+          <input id='tranche1' type='radio' name='revenu'/>
         </div>
 
         <div className='option option--small-card'>
@@ -286,7 +286,7 @@ export const Question9 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.24.02.61eeb8723dddf8.59158804.png" alt="entre 37 232 € et 45 326 €" />
             <p>Entre 37 232 € et 45 326 €</p>
           </label>
-          <input id='tranche2' type='radio' name='revenu' required/>
+          <input id='tranche2' type='radio' name='revenu'/>
         </div>
 
         <div className='option option--small-card'>
@@ -294,7 +294,7 @@ export const Question9 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.24.05.61eeb8799beb34.32022911.png" alt="entre 45 326 € et 67 585 €" />
             <p>Entre 45 326 € et 67 585 €</p>
           </label>
-          <input id='tranche3' type='radio' name='revenu' required/>
+          <input id='tranche3' type='radio' name='revenu'/>
         </div>
 
         <div className='option option--small-card'>
@@ -302,7 +302,7 @@ export const Question9 = () => {
             <img src="https://www.jotform.com/uploads/laverneboerger28167/form_files/Capture%20d%E2%80%99e%CC%81cran%202022-01-24%20a%CC%80%2015.24.07.61eeb880d7e6d5.25632314.png" alt="Supérieur à 67 585 €" />
             <p>Supérieur à 67 585 €</p>
           </label>
-          <input id='tranche3' type='radio' name='revenu' required/>
+          <input id='tranche3' type='radio' name='revenu'/>
         </div>
       </div>
     </>
